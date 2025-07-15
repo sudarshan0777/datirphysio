@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Datir Advanced Physiotherapy & Rehab Center | Shrigonda, Ahmednagar</title>
+    <meta name="description" content="Best physiotherapy clinic in Shrigonda offering advanced treatments for paralysis, joint pain, ligament injuries, and pediatric rehab. Qualified physiotherapists and homeopathy doctors.">
+    <meta name="keywords" content="Physiotherapy Clinic in Shrigonda, Paralysis Treatment Shrigonda, Best Physiotherapist in Ahmednagar, Advanced Rehab Center Shrigonda, Ligament Injury Treatment, Cerebral Palsy Physiotherapy">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(56, 182, 255, 0.8), rgba(56, 182, 255, 0.8)), url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .treatment-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-2">DD</div>
+                    <a href="#" class="text-xl font-bold text-blue-600">Dr. Datir <span class="text-gray-700">Physiotherapy</span></a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-blue-600 font-medium">Home</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600">About</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600">Services</a>
+                    <a href="#why-us" class="text-gray-700 hover:text-blue-600">Why Us</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-blue-600">Testimonials</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden py-4">
+                <a href="#home" class="block py-2 text-blue-600 font-medium">Home</a>
+                <a href="#about" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+                <a href="#services" class="block py-2 text-gray-700 hover:text-blue-600">Services</a>
+                <a href="#why-us" class="block py-2 text-gray-700 hover:text-blue-600">Why Us</a>
+                <a href="#testimonials" class="block py-2 text-gray-700 hover:text-blue-600">Testimonials</a>
+                <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg text-white pt-32 pb-20 md:pt-40 md:pb-28 px-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">डॉ. दातीर ऍडवान्सड फिजिओथेरपी & रििहॅब सेंटर</h1>
+            <h2 class="text-2xl md:text-4xl font-bold mb-6">Dr. Datir Advanced Physiotherapy & Rehab Center</h2>
+            <p class="text-xl md:text-2xl mb-8">Your Trusted Partner in Neurological & Orthopedic Recovery</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="tel:8275209177" class="bg-white text-blue-600 font-bold py-3 px-6 rounded-full hover:bg-blue-50 transition duration-300">
+                    <i class="fas fa-phone-alt mr-2"></i> Call Now
+                </a>
+                <a href="https://wa.me/918275209177" class="bg-blue-700 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-800 transition duration-300">
+                    <i class="fab fa-whatsapp mr-2"></i> Book Appointment
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-600">About Our Clinic</h2>
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="md:w-1/2">
+                    <div class="bg-blue-50 p-6 rounded-lg mb-6">
+                        <h3 class="text-xl font-bold text-blue-600 mb-3">Dr. Shubham Datir (B.P.Th)</h3>
+                        <p class="text-gray-700 mb-4">Qualified physiotherapist specializing in neurological and orthopedic rehabilitation with advanced training in modern physiotherapy techniques.</p>
+                        <p class="text-gray-700">Expertise in paralysis treatment, disc disorders, joint pain management, and pediatric rehabilitation.</p>
+                    </div>
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-blue-600 mb-3">Dr. Ashwini Datir (B.H.M.S.)</h3>
+                        <p class="text-gray-700 mb-4">Homeopathy specialist with extensive experience in chronic disease management and holistic healing approaches.</p>
+                        <p class="text-gray-700">Provides complementary homeopathic treatments alongside physiotherapy for comprehensive patient care.</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-blue-600 mb-4">Our Specializations</h3>
+                        <ul class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Paralysis Treatment</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Disc Disorders</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Joint Pain Management</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Ligament Injuries</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Pediatric Rehabilitation</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Cerebral Palsy</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Homeopathy Treatments</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Post-Surgical Rehab</li>
+                        </ul>
+                        <div class="mt-6 bg-blue-100 p-4 rounded-lg">
+                            <p class="text-blue-800 font-medium">We combine physiotherapy and homeopathy for holistic treatment approaches that address both physical symptoms and underlying causes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-600">Our Treatments & Services</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Treatment Card 1 -->
+                <div class="treatment-card bg-white p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-brain text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">Aर्र्धांगवायू (Paralysis)</h3>
+                    <p class="text-gray-600">Comprehensive rehabilitation programs for stroke and paralysis patients to regain mobility and independence.</p>
+                </div>
+                
+                <!-- Treatment Card 2 -->
+                <div class="treatment-card bg-white p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-bone text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">मणक्याचे विकार</h3>
+                    <p class="text-gray-600">Specialized treatments for spinal disorders including disc prolapse, spondylosis, and sciatica.</p>
+                </div>
+                
+                <!-- Treatment Card 3 -->
+                <div class="treatment-card bg-white p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-running text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">लिगामेंट इंज्युरी</h3>
+                    <p class="text-gray-600">Advanced rehabilitation for sports injuries and ligament tears with focus on complete recovery.</p>
+                </div>
+                
+                <!-- Treatment Card 4 -->
+                <div class="treatment-card bg-white p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-head-side-virus text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">मेंदू व नसांचे विकार</h3>
+                    <p class="text-gray-600">Neurological rehabilitation for conditions like Parkinson's, multiple sclerosis, and nerve injuries.</p>
+                </div>
+                
+                <!-- Treatment Card 5 -->
+                <div class="treatment-card bg-white p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-smile text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">चेहऱ्याचा पॅरालिसीस</h3>
+                    <p class="text-gray-600">Facial paralysis treatment including Bell's palsy rehabilitation with specialized techniques.</p>
+                </div>
+                
+                <!-- Treatment Card 6 -->
+                <div class="treatment-card bg-white p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-child text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">सेरेब्रल पाल्सी</h3>
+                    <p class="text-gray-600">Pediatric physiotherapy for cerebral palsy with focus on improving mobility and quality of life.</p>
+                </div>
+                
+                <!-- Treatment Card 7 -->
+                <div class="treatment-card bg-white p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-joint text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">सांधे दुखी, कंबर/गुडघे दुखी</h3>
+                    <p class="text-gray-600">Pain management for joint disorders including arthritis, knee pain, and back pain.</p>
+                </div>
+                
+                <!-- Treatment Card 8 -->
+                <div class="treatment-card bg-white p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-baby text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">बाल अपंगत्व</h3>
+                    <p class="text-gray-600">Early intervention programs for children with developmental delays and disabilities.</p>
+                </div>
+                
+                <!-- Treatment Card 9 -->
+                <div class="treatment-card bg-white p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-leaf text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">होमििओपॅथी उपचार</h3>
+                    <p class="text-gray-600">Holistic homeopathic treatments for chronic diseases, allergies, and lifestyle disorders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-600">Why Choose Our Clinic</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Feature 1 -->
+                <div class="bg-blue-50 p-6 rounded-lg text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-microchip text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">Modern Rehab Technology</h3>
+                    <p class="text-gray-600">We use the latest physiotherapy equipment and evidence-based treatment protocols.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="bg-blue-50 p-6 rounded-lg text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-clipboard-list text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">Personalized Treatment Plans</h3>
+                    <p class="text-gray-600">Customized therapy programs tailored to each patient's specific condition and goals.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="bg-blue-50 p-6 rounded-lg text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-user-md text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">Qualified & Friendly Doctors</h3>
+                    <p class="text-gray-600">Our experienced doctors provide compassionate care with professional expertise.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="bg-blue-50 p-6 rounded-lg text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-heart text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">Positive Recovery Environment</h3>
+                    <p class="text-gray-600">Clean, comfortable clinic designed to promote healing and positive outcomes.</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 bg-blue-100 p-6 rounded-lg">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-2/3 mb-4 md:mb-0">
+                        <h3 class="text-xl font-bold text-blue-800 mb-2">Conveniently Located in Shrigonda</h3>
+                        <p class="text-blue-900">Our central location on Daund-Jamkhed Main Road makes us easily accessible for patients from Shrigonda and surrounding areas in Ahmednagar district.</p>
+                    </div>
+                    <div class="md:w-1/3 text-center md:text-right">
+                        <a href="#contact" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition duration-300 inline-block">
+                            <i class="fas fa-map-marker-alt mr-2"></i> View Location
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section id="gallery" class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-600">Our Clinic Gallery</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="Clinic Facility" class="w-full h-64 object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="Therapy Equipment" class="w-full h-64 object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1571019614242-c95595945ccf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="Treatment Session" class="w-full h-64 object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1571019613566-2cef91eb9d98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="Pediatric Therapy" class="w-full h-64 object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="Neurological Rehab" class="w-full h-64 object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="Homeopathy Consultation" class="w-full h-64 object-cover transition duration-300 hover:scale-105">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-600">Patient Testimonials</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold mr-4">RK</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Ramesh Kulkarni</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"After my stroke, I had lost hope of walking again. Dr. Shubham's systematic physiotherapy approach helped me regain mobility in just 3 months. The clinic has excellent facilities and caring staff."</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold mr-4">SP</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Sunita Patil</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Dr. Ashwini's homeopathic treatment cured my chronic migraine that I had for 8 years. The combination of physiotherapy and homeopathy at this clinic provides complete healing."</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold mr-4">VM</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Vijay More</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"The treatment for my slipped disc was excellent. Within weeks of therapy, my pain reduced significantly. The doctors explain everything clearly and genuinely care about patients."</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <a href="https://wa.me/918275209177" class="bg-green-500 text-white font-bold py-3 px-6 rounded-full hover:bg-green-600 transition duration-300 inline-block">
+                    <i class="fab fa-whatsapp mr-2"></i> Share Your Experience
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-600">Contact Us</h2>
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2">
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                        <h3 class="text-xl font-bold mb-4 text-blue-600">Clinic Address</h3>
+                        <p class="text-gray-700 mb-4">
+                            <i class="fas fa-map-marker-alt text-blue-500 mr-2"></i> 
+                            दौंड-जामखेड मेन रोड, संजय सायकल शेजारी,<br>
+                            श्रीगोंदा, जि. अहमदनगर, महाराष्ट्र
+                        </p>
+                        <p class="text-gray-700 mb-2">
+                            <i class="fas fa-clock text-blue-500 mr-2"></i> 
+                            <span class="font-medium">Timings:</span> 9:00 AM - 8:00 PM (Monday-Saturday)
+                        </p>
+                        <p class="text-gray-700">
+                            <i class="fas fa-calendar-alt text-blue-500 mr-2"></i> 
+                            <span class="font-medium">Sunday:</span> Emergency cases only
+                        </p>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-4 text-blue-600">Contact Information</h3>
+                        <div class="mb-4">
+                            <p class="text-gray-700 font-medium">Dr. Shubham Datir (Physiotherapist)</p>
+                            <a href="tel:8275209177" class="text-blue-600 hover:text-blue-800">
+                                <i class="fas fa-phone-alt mr-2"></i> 8275209177
+                            </a>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-gray-700 font-medium">Dr. Ashwini Datir (Homeopathy)</p>
+                            <a href="tel:8485830808" class="text-blue-600 hover:text-blue-800">
+                                <i class="fas fa-phone-alt mr-2"></i> 8485830808
+                            </a>
+                        </div>
+                        <div class="flex flex-wrap gap-3 mt-6">
+                            <a href="tel:8275209177" class="bg-blue-600 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300">
+                                <i class="fas fa-phone-alt mr-2"></i> Call Now
+                            </a>
+                            <a href="https://wa.me/918275209177" class="bg-green-500 text-white font-bold py-2 px-4 rounded-full hover:bg-green-600 transition duration-300">
+                                <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                            </a>
+                            <a href="mailto:contact@drdatirphysio.com" class="bg-gray-600 text-white font-bold py-2 px-4 rounded-full hover:bg-gray-700 transition duration-300">
+                                <i class="fas fa-envelope mr-2"></i> Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="h-full rounded-lg overflow-hidden shadow-md">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.123456789012!2d74.12345678901234!3d19.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA3JzI0LjQiTiA3NMKwMDcnMjQuNCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" 
+                                width="100%" height="100%" style="min-height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Dr. Datir Physiotherapy</h3>
+                    <p class="mb-4">Advanced physiotherapy and rehabilitation center providing comprehensive care for neurological and orthopedic conditions.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-blue-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-blue-300 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-blue-300 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="hover:text-blue-300">Home</a></li>
+                        <li><a href="#about" class="hover:text-blue-300">About Us</a></li>
+                        <li><a href="#services" class="hover:text-blue-300">Services</a></li>
+                        <li><a href="#why-us" class="hover:text-blue-300">Why Choose Us</a></li>
+                        <li><a href="#testimonials" class="hover:text-blue-300">Testimonials</a></li>
+                        <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-300">Paralysis Treatment</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Spinal Disorders</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Joint Pain Relief</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Pediatric Rehab</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Homeopathy</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Sports Injuries</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+                    <address class="not-italic">
+                        <p class="mb-2"><i class="fas fa-map-marker-alt mr-2 text-blue-300"></i> Daund-Jamkhed Main Road, Shrigonda</p>
+                        <p class="mb-2"><i class="fas fa-phone-alt mr-2 text-blue-300"></i> 8275209177 (Physiotherapy)</p>
+                        <p class="mb-2"><i class="fas fa-phone-alt mr-2 text-blue-300"></i> 8485830808 (Homeopathy)</p>
+                        <p class="mb-2"><i class="fas fa-envelope mr-2 text-blue-300"></i> contact@drdatirphysio.com</p>
+                    </address>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p>&copy; 2023 Dr. Datir Advanced Physiotherapy & Rehab Center. All Rights Reserved.</p>
+                <p class="mt-2 text-sm text-gray-400">Designed with ❤️ for better healthcare in Shrigonda</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918275209177" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition duration-300 z-50">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+
+        // Add shadow to navbar on scroll
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 10) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+</body>
+</html>
