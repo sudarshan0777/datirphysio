@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/drfav.png">
+    <title>Blog - Dr. Datir Advanced Physiotherapy & Rehab Center | Shrigonda</title>
+    <meta name="description" content="Health and wellness blog from Dr. Datir's Physiotherapy Clinic. Read articles on paralysis recovery, joint pain management, and pediatric rehab.">
+    <meta name="keywords" content="Physiotherapy Blog, Health Tips Shrigonda, Paralysis Recovery, Joint Pain Advice, Pediatric Rehab Information">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <nav class="bg-white shadow-md fixed w-full z-20">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-2"><img src="/drfav.png" alt="Dr. Datir Physio"></div>
+                    <a href="index.html" class="text-xl font-bold text-blue-600">Dr. Datir <span class="text-gray-700">Physiotherapy</span></a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html#home" class="text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="#blog" class="text-blue-600 font-medium">Blog</a>
+                    <a href="index.html#services" class="text-gray-700 hover:text-blue-600">Services</a>
+                    <a href="index.html#about" class="text-gray-700 hover:text-blue-600">About</a>
+                    <a href="index.html#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden py-4">
+                <a href="index.html#home" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
+                <a href="#blog" class="block py-2 text-blue-600 font-medium">Blog</a>
+                <a href="index.html#services" class="block py-2 text-gray-700 hover:text-blue-600">Services</a>
+                <a href="index.html#about" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+                <a href="index.html#contact" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="blog" class="pt-32 pb-16 md:pt-40 md:pb-20 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Our Health & Wellness Blog</h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">Insights and advice from our expert physiotherapists to help you on your journey to recovery and well-being.</p>
+        </div>
+    </section>
+
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="blog-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300">
+                    <a href="#"><img class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=60" alt="Stroke patient doing therapy"></a>
+                    <div class="p-6">
+                        <span class="text-sm text-blue-600 font-semibold">Neurological Rehab</span>
+                        <h3 class="text-xl font-bold text-gray-800 my-2">Understanding & Recovering from Paralysis (Stroke)</h3>
+                        <p class="text-gray-600 mb-4">A stroke can be life-altering, but modern physiotherapy offers hope. Learn about the crucial first steps in rehabilitation and how targeted exercises can help regain function.</p>
+                        <a href="#" class="font-semibold text-blue-600 hover:text-blue-800">Read More &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="blog-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300">
+                     <a href="#"><img class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1604259587445-943a13361093?auto=format&fit=crop&w=800&q=60" alt="Person holding their back in pain"></a>
+                    <div class="p-6">
+                        <span class="text-sm text-blue-600 font-semibold">Orthopedics</span>
+                        <h3 class="text-xl font-bold text-gray-800 my-2">Managing Chronic Back Pain: Tips from the Experts</h3>
+                        <p class="text-gray-600 mb-4">Don't let back pain control your life. Discover effective strategies for managing spinal disorders like slipped discs and sciatica through personalized physiotherapy.</p>
+                        <a href="#" class="font-semibold text-blue-600 hover:text-blue-800">Read More &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="blog-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300">
+                     <a href="#"><img class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1571019613566-2cef91eb9d98?auto=format&fit=crop&w=800&q=60" alt="Therapist working with a child"></a>
+                    <div class="p-6">
+                        <span class="text-sm text-blue-600 font-semibold">Pediatric Rehab</span>
+                        <h3 class="text-xl font-bold text-gray-800 my-2">A Parent's Guide to Physiotherapy for Cerebral Palsy</h3>
+                        <p class="text-gray-600 mb-4">Early and consistent physiotherapy can significantly improve the quality of life for children with Cerebral Palsy. Learn how specialized programs help in their development.</p>
+                        <a href="#" class="font-semibold text-blue-600 hover:text-blue-800">Read More &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="blog-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300">
+                    <a href="#"><img class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1519803233144-8903c1b1888e?auto=format&fit=crop&w=800&q=60" alt="Athlete with knee injury"></a>
+                    <div class="p-6">
+                        <span class="text-sm text-blue-600 font-semibold">Sports Injury</span>
+                        <h3 class="text-xl font-bold text-gray-800 my-2">The Road to Recovery After a Ligament Injury</h3>
+                        <p class="text-gray-600 mb-4">Ligament injuries are common in sports and daily life. Our guide explains the rehabilitation process, from initial treatment to safely returning to your activities.</p>
+                        <a href="#" class="font-semibold text-blue-600 hover:text-blue-800">Read More &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="blog-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300">
+                    <a href="#"><img class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=60" alt="Doctor showing results to a patient"></a>
+                    <div class="p-6">
+                        <span class="text-sm text-blue-600 font-semibold">General Wellness</span>
+                        <h3 class="text-xl font-bold text-gray-800 my-2">Why a Holistic Approach to Healing Matters</h3>
+                        <p class="text-gray-600 mb-4">Learn how combining physiotherapy with other holistic treatments can lead to more comprehensive and lasting recovery, addressing both symptoms and root causes.</p>
+                        <a href="#" class="font-semibold text-blue-600 hover:text-blue-800">Read More &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="blog-card bg-white rounded-lg shadow-md overflow-hidden transition duration-300">
+                    <a href="#"><img class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1551601651-196de3898ddb?auto=format&fit=crop&w=800&q=60" alt="Person experiencing facial paralysis"></a>
+                    <div class="p-6">
+                        <span class="text-sm text-blue-600 font-semibold">Neurological Rehab</span>
+                        <h3 class="text-xl font-bold text-gray-800 my-2">Treating Facial Paralysis (Bell's Palsy)</h3>
+                        <p class="text-gray-600 mb-4">Facial paralysis can be distressing. Physiotherapy plays a key role in recovery, using specific exercises to retrain facial muscles and restore expression.</p>
+                        <a href="#" class="font-semibold text-blue-600 hover:text-blue-800">Read More &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-600">Contact Us</h2>
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2">
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                        <h3 class="text-xl font-bold mb-4 text-blue-600">Clinic Address</h3>
+                        <p class="text-gray-700 mb-4">
+                            <i class="fas fa-map-marker-alt text-blue-500 mr-2"></i>
+                            दौंड-जामखेड रोड, संजय सायकल शेजारी,<br>
+                            श्रीगोंदा, जि. अहमदनगर, महाराष्ट्र
+                        </p>
+                        <p class="text-gray-700 mb-2">
+                            <i class="fas fa-clock text-blue-500 mr-2"></i>
+                            <span class="font-medium">Timings:</span> 9:00 AM - 6:00 PM (Monday-Saturday)
+                        </p>
+                        <p class="text-gray-700">
+                            <i class="fas fa-calendar-alt text-blue-500 mr-2"></i>
+                            <span class="font-medium">Sunday:</span> Emergency cases only
+                        </p>
+                    </div>
+                    <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-4 text-blue-600">Contact Information</h3>
+                        <div class="mb-4">
+                            <p class="text-gray-700 font-medium">Dr. Shubham Datir (Physiotherapy)</p>
+                            <a href="tel:8275269177" class="text-blue-600 hover:text-blue-800">
+                                <i class="fas fa-phone-alt mr-2"></i> 8275269177
+                            </a>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-gray-700 font-medium">Dr. Ashwini Datir</p>
+                            <a href="tel:8485830808" class="text-blue-600 hover:text-blue-800">
+                                <i class="fas fa-phone-alt mr-2"></i> 8485830808
+                            </a>
+                        </div>
+                        <div class="flex flex-wrap gap-3 mt-6">
+                            <a href="tel:8275269177" class="bg-blue-600 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300">
+                                <i class="fas fa-phone-alt mr-2"></i> Call Now
+                            </a>
+                            <a href="https://wa.me/918275269177" class="bg-green-500 text-white font-bold py-2 px-4 rounded-full hover:bg-green-600 transition duration-300">
+                                <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                            </a>
+                            <a href="mailto:contact@drdatirphysio.com" class="bg-gray-600 text-white font-bold py-2 px-4 rounded-full hover:bg-gray-700 transition duration-300">
+                                <i class="fas fa-envelope mr-2"></i> Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="h-full rounded-lg overflow-hidden shadow-md">
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201976.79150644437!2d74.4110381867187!3d18.612016599999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc34348eac98957%3A0xa19c49338b5b08f6!2sDr.%20Datir%20Advanced%20Physiotherapy%20And%20Rehab%20Center!5e1!3m2!1sen!2sin!4v1752841171779!5m2!1sen!2sin" width="100%" height="100%" style="border:0; min-height: 450px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Dr. Datir Physiotherapy</h3>
+                    <p class="mb-4">Advanced physiotherapy and rehabilitation center providing comprehensive care for neurological and orthopedic conditions.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-blue-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-blue-300 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-blue-300 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#home" class="hover:text-blue-300">Home</a></li>
+                        <li><a href="#blog" class="hover:text-blue-300">Blog</a></li>
+                        <li><a href="index.html#services" class="hover:text-blue-300">Services</a></li>
+                        <li><a href="index.html#about" class="hover:text-blue-300">About Us</a></li>
+                        <li><a href="index.html#contact" class="hover:text-blue-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#services" class="hover:text-blue-300">Paralysis Treatment</a></li>
+                        <li><a href="index.html#services" class="hover:text-blue-300">Spinal Disorders</a></li>
+                        <li><a href="index.html#services" class="hover:text-blue-300">Joint Pain Relief</a></li>
+                        <li><a href="index.html#services" class="hover:text-blue-300">Pediatric Rehab</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+                    <address class="not-italic">
+                        <p class="mb-2"><i class="fas fa-map-marker-alt mr-2 text-blue-300"></i> Daund-Jamkhed Main Road, Shrigonda</p>
+                        <p class="mb-2"><i class="fas fa-phone-alt mr-2 text-blue-300"></i> 8275269177 (Physiotherapy)</p>
+                        <p class="mb-2"><i class="fas fa-phone-alt mr-2 text-blue-300"></i> 8485830808</p>
+                        <p class="mb-2"><i class="fas fa-envelope mr-2 text-blue-300"></i> contact@drdatirphysio.in</p>
+                    </address>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p>© 2025 Dr. Datir Advanced Physiotherapy & Rehab Center Shrigonda. All Rights Reserved.</p>
+                <p class="mt-2 text-sm text-gray-400">Designed with ❤️ By <a href="https://www.webatcost.in/">WebAtCost Web Solutions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/918275269177" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition duration-300 z-50">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links (if any on this page)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                // Prevent default for links that are just '#'
+                if(this.getAttribute('href') === '#') {
+                    e.preventDefault();
+                    return;
+                }
+                // Check if the target element is on the current page
+                const targetElement = document.querySelector(this.getAttribute('href'));
+                if (targetElement) {
+                    e.preventDefault();
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    // Hide mobile menu after click
+                    document.getElementById('mobile-menu').classList.add('hidden');
+                }
+                // If the target is not on the page (e.g., index.html#about), the browser will handle it.
+            });
+        });
+
+        // Add shadow to navbar on scroll
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 10) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+
+</body>
+</html>
